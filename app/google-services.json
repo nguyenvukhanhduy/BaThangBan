@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "846409351591",
+    "project_id": "bathangban-59e3a",
+    "storage_bucket": "bathangban-59e3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846409351591:android:99cb08e4db08f9ee8eb682",
+        "android_client_info": {
+          "package_name": "com.example.bathangban"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846409351591-me634q4q4hh3mc18v3pt87uogv732m8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bathangban",
+            "certificate_hash": "3ec601548c6fb043e08028f9f418b6bc58b9d470"
+          }
+        },
+        {
+          "client_id": "846409351591-ok569bpq9ckv2q3okir6b3tevioab2dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMJUNMUHUuiz4E0JuN7JQu56Pk15zr7Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846409351591-ok569bpq9ckv2q3okir6b3tevioab2dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

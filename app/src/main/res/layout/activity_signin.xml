@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".signin">
+
+        <EditText
+            android:id="@+id/editTextEmailDN"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint=" Nhập địa chỉ email ..."
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTPasswordDN"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint=" Mật Khẩu "
+            android:inputType="textPassword"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Đăng Nhập"
+            android:textSize="40dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewbtnQuenMatKhauDN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextTPasswordDN"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="24dp"
+            android:layout_toEndOf="@+id/checkBox"
+            android:layout_toRightOf="@+id/checkBox"
+            android:text="Quên mật khẩu ?"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonDangNhapDN"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textViewbtnQuenMatKhauDN"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Đăng Nhập"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="Email"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextEmailDN"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="Mật khẩu"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextTPasswordDN"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="20dp"
+            android:text="Remember me"
+            android:textSize="20dp"
+            />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
