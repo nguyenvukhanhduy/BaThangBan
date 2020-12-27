@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home_admin"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Trang Chủ" />
+    <item
+        android:id="@+id/nav_infor_admin"
+        android:icon="@drawable/ic_baseline_assignment_ind_24"
+        android:title="Hồ Sơ" />
+    <item
+        android:id="@+id/nav_chucnang_admin"
+        android:icon="@drawable/ic_baseline_set_high_24"
+        android:title="Chức Năng" />
+    <item
+        android:id="@+id/nav_search_admin"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Tìm Kiếm" />
+</menu>

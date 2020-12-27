@@ -6,4 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".Home_Admin">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/Toolbar_admin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/cardview_dark_background"
+            app:itemIconTint="@color/colorAccent"
+            app:menu="@menu/admin" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container_admin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/Toolbar_admin" />
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
